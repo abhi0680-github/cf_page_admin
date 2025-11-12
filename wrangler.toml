@@ -1,0 +1,12 @@
+name = "Put page name here"
+compatibility_date = "2025-10-29"
+pages_build_output_dir = "public"
+
+[[d1_databases]]
+binding = "D1" # available in your Worker on env.DB
+database_name = "Put db name here"
+database_id = "Put db ID here"
+
+[[r2_buckets]]
+binding = "ARTIST_BUCKET"
+bucket_name = "Put bucket name here"
